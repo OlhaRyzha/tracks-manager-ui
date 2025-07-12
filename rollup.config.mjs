@@ -1,7 +1,10 @@
+
 import postcss from 'rollup-plugin-postcss';
 import tailwindcss from 'tailwindcss';
 import autoprefixer from 'autoprefixer';
-
+import { nodeResolve } from '@rollup/plugin-node-resolve';
+import commonjs from '@rollup/plugin-commonjs';
+import typescript from '@rollup/plugin-typescript';
 
 export default {
   input: 'src/index.ts',
@@ -11,7 +14,7 @@ export default {
   ],
   plugins: [
     postcss({
-      extract: 'dist/index.css',
+      extract: 'dist/index.css',      
       plugins: [tailwindcss(), autoprefixer()],
     }),
     nodeResolve(),
@@ -19,4 +22,4 @@ export default {
     typescript(),
   ],
   external: ['react', 'react-dom'],
-};
+}
