@@ -1,17 +1,22 @@
-import resolve from '@rollup/plugin-node-resolve';
-import commonjs from '@rollup/plugin-commonjs';
-import typescript from '@rollup/plugin-typescript';
+import postcss from 'rollup-plugin-postcss';
+import tailwindcss from 'tailwindcss';
+import autoprefixer from 'autoprefixer';
+
 
 export default {
   input: 'src/index.ts',
-  external: ['react','react-dom'],
   output: [
-    { file: 'dist/index.cjs.js', format: 'cjs', exports: 'named', sourcemap: true },
-    { file: 'dist/index.esm.js', format: 'esm', sourcemap: true }
+    { file: 'dist/index.cjs.js', format: 'cjs' },
+    { file: 'dist/index.esm.js', format: 'esm' },
   ],
   plugins: [
-    resolve(),
+    postcss({
+      extract: 'dist/index.css',
+      plugins: [tailwindcss(), autoprefixer()],
+    }),
+    nodeResolve(),
     commonjs(),
-    typescript({ tsconfig: './tsconfig.json' })
-  ]
+    typescript(),
+  ],
+  external: ['react', 'react-dom'],
 };

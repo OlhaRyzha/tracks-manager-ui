@@ -8,6 +8,7 @@
   "files": [
     "dist"
   ],
+   "style": "dist/index.css",
   "license": "MIT",
   "repository": {
     "type": "git",
