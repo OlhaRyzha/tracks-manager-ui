@@ -1,8 +1,7 @@
-
 import postcss from 'rollup-plugin-postcss';
 import tailwindcss from 'tailwindcss';
 import autoprefixer from 'autoprefixer';
-import { nodeResolve } from '@rollup/plugin-node-resolve';
+import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import typescript from '@rollup/plugin-typescript';
 
@@ -14,12 +13,12 @@ export default {
   ],
   plugins: [
     postcss({
-      extract: 'dist/index.css',      
+      extract: 'index.css',  
       plugins: [tailwindcss(), autoprefixer()],
     }),
-    nodeResolve(),
+    resolve(),
     commonjs(),
-    typescript(),
+    typescript({ tsconfig: './tsconfig.json' }),
   ],
   external: ['react', 'react-dom'],
 }
