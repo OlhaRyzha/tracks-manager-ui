@@ -13,7 +13,9 @@ export default {
   ],
   plugins: [
     postcss({
-      extract: 'dist/index.css',
+      extract: true, 
+      minimize: true,
+      sourceMap: true,
       plugins: [tailwindcss(), autoprefixer()],
     }),
     resolve(),
