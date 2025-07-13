@@ -9,4 +9,4 @@ A set of UI components (Button, Input, Skeleton) for Tracks Manager
 ## Installation
 
 ```bash
-npm install @tracks-manager/ui
+npm install tracks-manager-ui
