@@ -15,6 +15,7 @@ const meta: Meta<ButtonProps> = {
         'secondary',
         'ghost',
         'link',
+        'paginationInactive',
       ],
     },
     size: { control: 'select', options: ['default', 'sm', 'lg', 'icon'] },
@@ -43,5 +44,13 @@ export const IconNext: Story = {
     children: <SkipForward size={20} />,
     variant: 'outline',
     size: 'icon',
+  },
+};
+
+export const PaginationInactive: Story = {
+  args: {
+    children: 'Page 2',
+    variant: 'paginationInactive',
+    size: 'default',
   },
 };
