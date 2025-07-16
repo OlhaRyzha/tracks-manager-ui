@@ -23,7 +23,7 @@ const buttonVariants = cva(
         icon: "h-9 w-9",
       },
       isDisabled: {
-        true: "cursor-not-allowed opacity-50 pointer-events-none",
+        true: "cursor-not-allowed opacity-50",
       },
     },
     defaultVariants: {
