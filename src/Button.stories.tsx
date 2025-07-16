@@ -55,20 +55,3 @@ export const PaginationInactive: Story = {
   },
 };
 
-export const Disabled: Story = {
-  args: {
-    children: 'Disabled',
-    variant: 'default',
-    size: 'default',
-    disabled: true,
-  },
-};
-
-export const DisabledPaginationInactive: Story = {
-  args: {
-    children: 'Page 2',
-    variant: 'paginationInactive',
-    size: 'default',
-    disabled: true,
-  },
-};
