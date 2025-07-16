@@ -9,6 +9,13 @@
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "style": "dist/index.esm.css",
+   "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js"
+    },
+    "./dist/index.esm.css": "./dist/index.esm.css"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",

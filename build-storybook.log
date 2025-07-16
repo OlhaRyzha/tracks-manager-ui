@@ -1,10 +1,10 @@
 
-> tracks-manager-ui@0.1.21 build-storybook
-> storybook build --output-dir=/var/folders/sf/n0z72hys1y135d8_9m48bfvh0000gn/T/chromatic--14218-fhH6UzPKZ7Qr --webpack-stats-json=/var/folders/sf/n0z72hys1y135d8_9m48bfvh0000gn/T/chromatic--14218-fhH6UzPKZ7Qr
+> tracks-manager-ui@0.1.22 build-storybook
+> storybook build --output-dir=/var/folders/sf/n0z72hys1y135d8_9m48bfvh0000gn/T/chromatic--26417-pvhgd7E91GUj --webpack-stats-json=/var/folders/sf/n0z72hys1y135d8_9m48bfvh0000gn/T/chromatic--26417-pvhgd7E91GUj
 
 [1mstorybook v9.0.16
 [22m
-info => Cleaning outputDir: [36m../../../../../var/folders/sf/n0z72hys1y135d8_9m48bfvh0000gn/T/chromatic--14218-fhH6UzPKZ7Qr[39m
+info => Cleaning outputDir: [36m../../../../../var/folders/sf/n0z72hys1y135d8_9m48bfvh0000gn/T/chromatic--26417-pvhgd7E91GUj[39m
 info => Loading presets
 info => Building manager..
 info => Building preview..
@@ -14,14 +14,14 @@ transforming...
 [32m✓[39m 1689 modules transformed.
 rendering chunks...
 computing gzip size...
-[2m../../../../../var/folders/sf/n0z72hys1y135d8_9m48bfvh0000gn/T/chromatic--14218-fhH6UzPKZ7Qr/[22m[32miframe.html                          [39m[1m[2m   17.97 kB[22m[1m[22m[2m │ gzip:   5.07 kB[22m
-[2m../../../../../var/folders/sf/n0z72hys1y135d8_9m48bfvh0000gn/T/chromatic--14218-fhH6UzPKZ7Qr/[22m[2massets/[22m[35miframe-DhHQDwyc.css           [39m[1m[2m   28.68 kB[22m[1m[22m[2m │ gzip:   5.85 kB[22m
-[2m../../../../../var/folders/sf/n0z72hys1y135d8_9m48bfvh0000gn/T/chromatic--14218-fhH6UzPKZ7Qr/[22m[2massets/[22m[36mInput.stories-DWcgY3Nj.js     [39m[1m[2m    0.84 kB[22m[1m[22m[2m │ gzip:   0.40 kB[22m
-[2m../../../../../var/folders/sf/n0z72hys1y135d8_9m48bfvh0000gn/T/chromatic--14218-fhH6UzPKZ7Qr/[22m[2massets/[22m[36mSkeleton.stories-Df6oWmOr.js  [39m[1m[2m    1.56 kB[22m[1m[22m[2m │ gzip:   0.57 kB[22m
-[2m../../../../../var/folders/sf/n0z72hys1y135d8_9m48bfvh0000gn/T/chromatic--14218-fhH6UzPKZ7Qr/[22m[2massets/[22m[36mButton.stories-Bp9yt_Re.js    [39m[1m[2m    5.46 kB[22m[1m[22m[2m │ gzip:   1.76 kB[22m
-[2m../../../../../var/folders/sf/n0z72hys1y135d8_9m48bfvh0000gn/T/chromatic--14218-fhH6UzPKZ7Qr/[22m[2massets/[22m[36mskeleton-4Eu05P0V.js          [39m[1m[2m   30.31 kB[22m[1m[22m[2m │ gzip:  10.06 kB[22m
-[2m../../../../../var/folders/sf/n0z72hys1y135d8_9m48bfvh0000gn/T/chromatic--14218-fhH6UzPKZ7Qr/[22m[2massets/[22m[36mreact-18-BLrFujkg.js          [39m[1m[2m  178.41 kB[22m[1m[22m[2m │ gzip:  56.25 kB[22m
-[2m../../../../../var/folders/sf/n0z72hys1y135d8_9m48bfvh0000gn/T/chromatic--14218-fhH6UzPKZ7Qr/[22m[2massets/[22m[36miframe-BbYruTpY.js            [39m[1m[33m1,253.73 kB[39m[22m[2m │ gzip: 346.98 kB[22m
-[32m✓ built in 2.66s[39m
-info => preview stats written to [36m/var/folders/sf/n0z72hys1y135d8_9m48bfvh0000gn/T/chromatic--14218-fhH6UzPKZ7Qr/preview-stats.json[39m
-info => Output directory: /var/folders/sf/n0z72hys1y135d8_9m48bfvh0000gn/T/chromatic--14218-fhH6UzPKZ7Qr
+[2m../../../../../var/folders/sf/n0z72hys1y135d8_9m48bfvh0000gn/T/chromatic--26417-pvhgd7E91GUj/[22m[32miframe.html                          [39m[1m[2m   17.97 kB[22m[1m[22m[2m │ gzip:   5.07 kB[22m
+[2m../../../../../var/folders/sf/n0z72hys1y135d8_9m48bfvh0000gn/T/chromatic--26417-pvhgd7E91GUj/[22m[2massets/[22m[35miframe-DhHQDwyc.css           [39m[1m[2m   28.68 kB[22m[1m[22m[2m │ gzip:   5.85 kB[22m
+[2m../../../../../var/folders/sf/n0z72hys1y135d8_9m48bfvh0000gn/T/chromatic--26417-pvhgd7E91GUj/[22m[2massets/[22m[36mInput.stories-D3jeksJP.js     [39m[1m[2m    0.84 kB[22m[1m[22m[2m │ gzip:   0.40 kB[22m
+[2m../../../../../var/folders/sf/n0z72hys1y135d8_9m48bfvh0000gn/T/chromatic--26417-pvhgd7E91GUj/[22m[2massets/[22m[36mSkeleton.stories-D-zJeQeX.js  [39m[1m[2m    1.56 kB[22m[1m[22m[2m │ gzip:   0.57 kB[22m
+[2m../../../../../var/folders/sf/n0z72hys1y135d8_9m48bfvh0000gn/T/chromatic--26417-pvhgd7E91GUj/[22m[2massets/[22m[36mButton.stories-BMeyiEnD.js    [39m[1m[2m    5.88 kB[22m[1m[22m[2m │ gzip:   1.84 kB[22m
+[2m../../../../../var/folders/sf/n0z72hys1y135d8_9m48bfvh0000gn/T/chromatic--26417-pvhgd7E91GUj/[22m[2massets/[22m[36mskeleton-Bw5TVA8C.js          [39m[1m[2m   30.31 kB[22m[1m[22m[2m │ gzip:  10.06 kB[22m
+[2m../../../../../var/folders/sf/n0z72hys1y135d8_9m48bfvh0000gn/T/chromatic--26417-pvhgd7E91GUj/[22m[2massets/[22m[36mreact-18-CFduYD0X.js          [39m[1m[2m  178.41 kB[22m[1m[22m[2m │ gzip:  56.25 kB[22m
+[2m../../../../../var/folders/sf/n0z72hys1y135d8_9m48bfvh0000gn/T/chromatic--26417-pvhgd7E91GUj/[22m[2massets/[22m[36miframe-CQQ8Wsnm.js            [39m[1m[33m1,253.73 kB[39m[22m[2m │ gzip: 346.98 kB[22m
+[32m✓ built in 2.61s[39m
+info => preview stats written to [36m/var/folders/sf/n0z72hys1y135d8_9m48bfvh0000gn/T/chromatic--26417-pvhgd7E91GUj/preview-stats.json[39m
+info => Output directory: /var/folders/sf/n0z72hys1y135d8_9m48bfvh0000gn/T/chromatic--26417-pvhgd7E91GUj
